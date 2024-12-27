@@ -4,12 +4,12 @@ pipeline {
     stages {
         stage('code') {
             steps {
-                echo 'This is code stage'
+                echo 'This is code stage in master branch'
             }
         }
         stage('Build'){
             steps{
-                echo 'This is build stage'
+                echo 'This is build stage in master branch'
             }
         }
     }
